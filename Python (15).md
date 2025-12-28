@@ -158,6 +158,7 @@ Understanding shape and ndim is essential for reshaping and broadcasting
 dtype and itemsize help manage memory efficiency
 
 size is useful for validating data dimensions
+
 ---
 
 ### Creating NumPy Arrays
@@ -247,6 +248,7 @@ np.empty(shape)
 zeros() and ones() guarantee initialized values
 
 empty() is useful when performance is critical and values will be overwritten immediately
+
 ---
 
 ## Key Learnings
