@@ -370,4 +370,86 @@ Correct use of axis is critical for data analysis and machine learning workflows
 
 ---
 
+## NumPy Array Basics
 
+This document summarizes basic NumPy array operations I learned while studying Python.
+
+## NumPy Array Functions
+
+NumPy provides various functions that operate element-wise on arrays:
+
+- Addition / Subtraction
+- Multiplication / Division
+- Logarithmic and Trigonometric functions  
+  (`log`, `sin`, `cos`, `tan`)
+
+### Example: Creating and Printing a NumPy Array
+
+```python
+import numpy as np
+
+B = np.array([1, 4, 9])
+print(B)
+```
+```text
+[1 4 9]
+```
+
+### Example : Squre Root Calculation
+NumPy allows mathematical operations to be applied to all elements of an array at once
+```python
+print(np.sqrt(B))
+```
+```
+[1. 2. 3.]
+```
+
+## Key Takeaways
+
+NumPy arrays support vectorized operations without using loops.
+
+Mathematical functions like sqrt() are applied element-wise.
+
+Using NumPy makes numerical computations simpler and more efficient.
+
+---
+
+## Key Learnings
+
+### NumPy Data Creation
+- `arange()` for creating arrays with a fixed step size
+- `linspace()` for generating evenly spaced values within a given range
+
+### NumPy Operations
+- Element-wise operations on arrays
+- Aggregate functions using the `axis` parameter
+
+### NumPy Array Functions
+
+---
+
+## Reflections
+
+- Initially, I encountered errors when using arange() and linspace().
+- After investigating, I realized the issue was caused by NumPy not being imported in Google Colab.
+- Once I added import numpy as np, the code worked as expected.
+- Merry Christmas 🎄
+Keep going!
+
+---
+
+## Resources
+- Handbook_Python_Final.pdf
+- Fast Campus – Python Data Analysis Fundamentals
+
+## Author
+
+**RYU YEJIN**
+
+Python & Data Analysis Learner
+
+Documenting my journey from Python basics to practical projects
+
+📧 Email: datacori00@gmail.com
+
+Blog : https://blog.naver.com/datacori/224116551211
