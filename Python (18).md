@@ -2,9 +2,7 @@
 
 ---
 
-# Python Programming Portfolio
-
-## Learning Goals (251227)
+## Learning Goals
 
 - Understand the basics of Python and data manipulation with **Pandas**.
 - Gain proficiency in **Pandas DataFrame** and **Series** for data analysis.
@@ -538,8 +536,11 @@ Pandas provides various methods for detecting, filtering, and filling missing da
 
 **RYU YEJIN**  
 
-Data Analysis Enthusiast
-Python Developer | Passionate about solving real-world problems with data.  
-Email: datacari00@gmail.com
-Blog : https://blog.naver.com/datacori/224118873261
+Aspiring Data Analyst  
+
+Documenting the journey from Python fundamentals to practical data analysis projects  
+
+📧 Email: datacorio00@gmail.com
+
+Blog : https://blog.naver.com/datacori/224117579062
 
